@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "5N9PKHyMfATvUh+knCEGjrZSoW7xNVX4hH36h5hRSbnKW0AkzFyqlTydFDooi97dUgPa4dF3o0UL5NctKNUrhw==",
+  "dgSpecHash": "ufD7J7qS+nRKnTO8Hjt4084AT/e75VMjek+YDA/S6fwQLW1Enb5UbLjK79VuYWXx2GsSLCwALu4vm5I6uv/ueQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\François\\source\\repos\\Shout_API\\Shout_API\\Shout_API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\François\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.0\\microsoft.aspnetcore.jsonpatch.3.1.0.nupkg.sha512",
+    "C:\\Users\\François\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.0.nupkg.sha512",
+    "C:\\Users\\François\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\François\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\François\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
