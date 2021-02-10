@@ -8,5 +8,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="UpperString">
+      <HintPath>..\..\Shout_Lib.Uppercase\UpperString\bin\Debug\netstandard2.1\UpperString.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 
 </Project>
