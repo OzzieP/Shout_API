@@ -18,6 +18,8 @@ namespace Shout_API
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
+
         }
 
         public IConfiguration Configuration { get; }
@@ -31,6 +33,23 @@ namespace Shout_API
 
             services.AddCors(options => options.AddDefaultPolicy(
                 builder => builder.AllowAnyOrigin()));
+
+
+            //services.AddCors(options =>
+            //{
+            //    options.AddDefaultPolicy(
+            //        builder =>
+            //        {
+            //            builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+            //        });
+            //});
+
+            services.AddCors(o => o.AddPolicy("Cors", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,7 +72,7 @@ namespace Shout_API
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllerRoute("default", "{controller=Api}/{action=Index}/{id?}");
             });
         }
     }

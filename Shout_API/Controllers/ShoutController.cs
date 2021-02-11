@@ -12,17 +12,15 @@ using UpperString;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Shout_API.Controllers
-{
-    [Route("api/shout")]
-    [ApiController]
-    [EnableCors]
-    public class ShoutController : ControllerBase
+{ 
+    [EnableCors("Cors")]
+    public class ShoutController : Controller
     {
         // POST api/shout
         [HttpPost]
-        public string Post([FromBody] Chaine chaine)
+        public string Index(string chaine)
         {
-            return StringLibrary.StringToUpper(chaine.llibelle);
+            return StringLibrary.StringToUpper(chaine);
         }
     }
 }

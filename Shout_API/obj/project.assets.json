@@ -244,6 +244,15 @@
         "runtime": {
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
+      },
+      "UpperString/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/UpperString.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/UpperString.dll": {}
+        }
       }
     }
   },
@@ -725,35 +734,53 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "UpperString/1.0.0": {
+      "sha512": "u+eaCn2i+qowwnb8HfyQAFESDhdZLA8qv7d6iH2TQkZXQaIEvyzw3rKEFIVfaXvYGRsjlKH/3e5X1TlZulky+A==",
+      "type": "package",
+      "path": "upperstring/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.1/UpperString.dll",
+        "upperstring.1.0.0.nupkg.sha512",
+        "upperstring.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Cors >= 2.2.0",
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.0"
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.0",
+      "UpperString >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\François\\.nuget\\packages\\": {}
+    "C:\\Users\\Matthdub\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\François\\source\\repos\\Shout_API\\Shout_API\\Shout_API.csproj",
+      "projectUniqueName": "C:\\Users\\Matthdub\\source\\repos\\OzzieP\\Shout_API\\Shout_API\\Shout_API.csproj",
       "projectName": "Shout_API",
-      "projectPath": "C:\\Users\\François\\source\\repos\\Shout_API\\Shout_API\\Shout_API.csproj",
-      "packagesPath": "C:\\Users\\François\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\François\\source\\repos\\Shout_API\\Shout_API\\obj\\",
+      "projectPath": "C:\\Users\\Matthdub\\source\\repos\\OzzieP\\Shout_API\\Shout_API\\Shout_API.csproj",
+      "packagesPath": "C:\\Users\\Matthdub\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Matthdub\\source\\repos\\OzzieP\\Shout_API\\Shout_API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\François\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Matthdub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\Bureau": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -779,6 +806,10 @@
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
             "version": "[3.1.0, )"
+          },
+          "UpperString": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
@@ -799,7 +830,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
