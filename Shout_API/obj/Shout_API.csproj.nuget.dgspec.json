@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matthdub\\source\\repos\\OzzieP\\Shout_API\\Shout_API\\Shout_API.csproj": {}
+    "C:\\Users\\François\\source\\repos\\Shout_API\\Shout_API\\Shout_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matthdub\\source\\repos\\OzzieP\\Shout_API\\Shout_API\\Shout_API.csproj": {
+    "C:\\Users\\François\\source\\repos\\Shout_API\\Shout_API\\Shout_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthdub\\source\\repos\\OzzieP\\Shout_API\\Shout_API\\Shout_API.csproj",
+        "projectUniqueName": "C:\\Users\\François\\source\\repos\\Shout_API\\Shout_API\\Shout_API.csproj",
         "projectName": "Shout_API",
-        "projectPath": "C:\\Users\\Matthdub\\source\\repos\\OzzieP\\Shout_API\\Shout_API\\Shout_API.csproj",
-        "packagesPath": "C:\\Users\\Matthdub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthdub\\source\\repos\\OzzieP\\Shout_API\\Shout_API\\obj\\",
+        "projectPath": "C:\\Users\\François\\source\\repos\\Shout_API\\Shout_API\\Shout_API.csproj",
+        "packagesPath": "C:\\Users\\François\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\François\\source\\repos\\Shout_API\\Shout_API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Matthdub\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\François\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -44,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

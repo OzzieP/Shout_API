@@ -50,3 +50,5 @@ C:\Users\Matthdub\source\repos\OzzieP\Shout_API\Shout_API\obj\Debug\netcoreapp3.
 C:\Users\Matthdub\source\repos\OzzieP\Shout_API\Shout_API\obj\Debug\netcoreapp3.1\Shout_API.dll
 C:\Users\Matthdub\source\repos\OzzieP\Shout_API\Shout_API\obj\Debug\netcoreapp3.1\Shout_API.pdb
 C:\Users\Matthdub\source\repos\OzzieP\Shout_API\Shout_API\obj\Debug\netcoreapp3.1\Shout_API.genruntimeconfig.cache
+C:\Users\François\source\repos\Shout_API\Shout_API\bin\Debug\netcoreapp3.1\UpperString.dll
+C:\Users\François\source\repos\Shout_API\Shout_API\bin\Debug\netcoreapp3.1\UpperString.pdb

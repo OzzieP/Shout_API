@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Shout_API.Models;
 using System;
@@ -14,13 +15,14 @@ namespace Shout_API.Controllers
 {
     [Route("api/shout")]
     [ApiController]
+    [EnableCors]
     public class ShoutController : ControllerBase
     {
         // POST api/shout
         [HttpPost]
         public string Post([FromBody] Chaine chaine)
         {
-            return StringLibrary.StringToUpper(chaine.Libelle);
+            return StringLibrary.StringToUpper(chaine.llibelle);
         }
     }
 }

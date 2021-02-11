@@ -9,7 +9,7 @@ namespace Shout_API.Models
     {
         private String libelle;
 
-        public String Libelle
+        public String llibelle
         {
             get { return libelle; }
             set { libelle = value; }
