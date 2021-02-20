@@ -12,7 +12,7 @@ namespace TestProject
             int a = 5;
             int b = 10;
 
-            Assert.Equal(2, a + b);
+            Assert.Equal(15, a + b);
 
 
         }
